@@ -1,3 +1,10 @@
+# Let:
+# n = number of strings
+# k = average/max length of each string
+# 
+# Time Complexity: O(n × k)
+# Space: O(n × k)
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         seen = {}
