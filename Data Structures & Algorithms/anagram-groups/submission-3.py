@@ -1,3 +1,5 @@
+# Removed extra spaces and the new lines and the code execution time decreased
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         seen = {}
